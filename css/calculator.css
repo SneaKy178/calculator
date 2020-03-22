@@ -1,0 +1,37 @@
+input[type="text"] {
+  width: 307px;
+  height: 60px;
+  background-color: black;
+  border: none;
+  color: white;
+  font-size: 20px;
+}
+
+.button {
+  width: 70px;
+  height: 80px;
+  margin: 2px;
+  border: none;
+  color: white;
+  font-size: 20px;
+  background-color: #607d8b;
+}
+
+body {
+  background-image: linear-gradient(to right, pink, purple);
+}
+
+form {
+  padding-top: 12%;
+  padding-left: 801px;
+}
+
+table {
+  left: 42%;
+  top: 15%;
+  border-collapse: collapse;
+  border-right: 1px solid white;
+  border-left: 1px solid white;
+  border-bottom: 1px solid white;
+  position: relative;
+}
