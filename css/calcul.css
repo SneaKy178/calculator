@@ -51,12 +51,16 @@
     color: white;
     border: none;
     font-size: 17px;
-    margin-left: 100px;
+  }
+
+  form {
+    padding-top: 75px;
+    margin-left: 85px;
   }
 
   table {
+    margin-left: 85px;
     border: 2px solid white;
-    margin-left: 100px;
   }
 }
 
