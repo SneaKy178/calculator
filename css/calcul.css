@@ -1,33 +1,38 @@
-body {
-  background-image: linear-gradient(to right, purple, red);
+@media (min-width: 1000px) {
+  body {
+    background-image: linear-gradient(to right, purple, red);
+  }
+
+  input[type="text"] {
+    width: 183px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 17px;
+  }
+
+  .button {
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+    font-size: 15px;
+    background-color: #607d8b;
+  }
+
+  form {
+    padding-top: 300px;
+    padding-left: 861px;
+  }
+
+  table {
+    border: 2px solid white;
+    margin: auto;
+  }
 }
 
-input[type="text"] {
-  width: 183px;
-  height: 40px;
-  background-color: black;
-  color: white;
-  border: none;
-  font-size: 17px;
-}
-
-.button {
-  width: 40px;
-  height: 40px;
-  border: none;
-  border-radius: 50%;
-  font-size: 15px;
-  background-color: #607d8b;
-}
-
-form {
-  padding-top: 300px;
-  padding-left: 861px;
-}
-
-table {
-  border: 2px solid white;
-  margin: auto;
+@media (max-width 700px) {
 }
 
 @viewport {
