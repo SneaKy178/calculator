@@ -32,7 +32,29 @@
   }
 }
 
-@media (max-width 700px) {
+@media (max-width: 700px) {
+  body {
+    background-image: linear-gradient(to right, purple, red);
+  }
+  .button {
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+    font-size: 15px;
+    background-color: #607d8b;
+  }
+  input[type="text"] {
+    width: 183px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 17px;
+  }
+  table {
+    border: 2px solid white;
+  }
 }
 
 @viewport {
