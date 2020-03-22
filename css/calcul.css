@@ -51,9 +51,12 @@
     color: white;
     border: none;
     font-size: 17px;
+    margin-left: 100px;
   }
+
   table {
     border: 2px solid white;
+    margin-left: 100px;
   }
 }
 
