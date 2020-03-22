@@ -29,3 +29,12 @@ table {
   border: 2px solid white;
   margin: auto;
 }
+
+@viewport {
+  zoom: 1;
+  width: extend-to-zoom;
+}
+@-ms-viewport {
+  width: extend-to-zoom;
+  zoom: 1;
+}
